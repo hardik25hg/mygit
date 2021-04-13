@@ -1,0 +1,7 @@
+>>> '{0:<15}'.format('left-justify')
+'left-justify
+'
+>>> '{0:>15}'.format('right-justify')
+' right-justify'
+>>> '{0:*^15}'.format('centered')
+'***centered****'
